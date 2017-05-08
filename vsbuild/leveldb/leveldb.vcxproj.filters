@@ -122,9 +122,6 @@
     <ClCompile Include="..\..\src\leveldb\db\c.cc">
       <Filter>源文件\db</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\leveldb\db\db_bench.cc">
-      <Filter>源文件\db</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\leveldb\db\db_impl.cc">
       <Filter>源文件\db</Filter>
     </ClCompile>
@@ -138,9 +135,6 @@
       <Filter>源文件\db</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\leveldb\db\filename.cc">
-      <Filter>源文件\db</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\leveldb\db\leveldb_main.cc">
       <Filter>源文件\db</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\leveldb\db\log_reader.cc">

@@ -19,6 +19,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leveldb", "leveldb\leveldb.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "secp256k1", "secp256k1\secp256k1.vcxproj", "{338B3D1A-7F19-4C58-8945-23F5670BF4B7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin-cli", "bitcoin-cli\bitcoin-cli.vcxproj", "{335E8E2F-475D-43AC-B6F0-D071D55892AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bitcoin_test", "bitcoin_test\bitcoin_test.vcxproj", "{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +95,22 @@ Global
 		{338B3D1A-7F19-4C58-8945-23F5670BF4B7}.Release|x64.Build.0 = Release|x64
 		{338B3D1A-7F19-4C58-8945-23F5670BF4B7}.Release|x86.ActiveCfg = Release|Win32
 		{338B3D1A-7F19-4C58-8945-23F5670BF4B7}.Release|x86.Build.0 = Release|Win32
+		{335E8E2F-475D-43AC-B6F0-D071D55892AB}.Debug|x64.ActiveCfg = Debug|x64
+		{335E8E2F-475D-43AC-B6F0-D071D55892AB}.Debug|x64.Build.0 = Debug|x64
+		{335E8E2F-475D-43AC-B6F0-D071D55892AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{335E8E2F-475D-43AC-B6F0-D071D55892AB}.Debug|x86.Build.0 = Debug|Win32
+		{335E8E2F-475D-43AC-B6F0-D071D55892AB}.Release|x64.ActiveCfg = Release|x64
+		{335E8E2F-475D-43AC-B6F0-D071D55892AB}.Release|x64.Build.0 = Release|x64
+		{335E8E2F-475D-43AC-B6F0-D071D55892AB}.Release|x86.ActiveCfg = Release|Win32
+		{335E8E2F-475D-43AC-B6F0-D071D55892AB}.Release|x86.Build.0 = Release|Win32
+		{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}.Debug|x64.ActiveCfg = Debug|x64
+		{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}.Debug|x64.Build.0 = Debug|x64
+		{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}.Debug|x86.Build.0 = Debug|Win32
+		{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}.Release|x64.ActiveCfg = Release|x64
+		{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}.Release|x64.Build.0 = Release|x64
+		{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}.Release|x86.ActiveCfg = Release|Win32
+		{EBB40CFB-B66B-403B-BAE2-A9FF17229FEC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

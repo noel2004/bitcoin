@@ -286,6 +286,11 @@ BOOST_AUTO_TEST_CASE(util_TimingResistantEqual)
  * Put a string before and after to ensure sanity of element sizes on stack. */
 #define B "check_prefix"
 #define E "check_postfix"
+
+#ifdef WIN32
+typedef int ssize_t;
+#endif
+
 BOOST_AUTO_TEST_CASE(strprintf_numbers)
 {
     int64_t s64t = -9223372036854775807LL; /* signed 64 bit test value */
