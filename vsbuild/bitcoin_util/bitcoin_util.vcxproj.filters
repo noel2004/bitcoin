@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\compat">
+      <UniqueIdentifier>{90c69343-4dc0-44a3-9c9d-b8f6ceef6b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\compat">
+      <UniqueIdentifier>{b54ef1fd-6a71-4ac7-a83e-c6048e26faa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\univalue">
+      <UniqueIdentifier>{e37e2b2c-34a1-421e-b8e4-9ca99f73d7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\univalue">
+      <UniqueIdentifier>{8211b5a0-3362-4c46-8194-5589cd90a703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\rpc">
+      <UniqueIdentifier>{21d91768-0128-46d0-b20c-7aa21574f06e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rpc">
+      <UniqueIdentifier>{b08feb13-3d0b-4e74-827e-41ee1c6a5a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\support">
+      <UniqueIdentifier>{f2faff06-e3b8-41ab-aba7-efae028eeb51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\support">
+      <UniqueIdentifier>{f0ba1727-bc59-4a4a-8054-b36b069f6a0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\chainparamsbase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\clientversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sync.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utilmoneystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utilstrencodings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utiltime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\compat\glibc_compat.cpp">
+      <Filter>源文件\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\compat\glibc_sanity.cpp">
+      <Filter>源文件\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\compat\glibcxx_sanity.cpp">
+      <Filter>源文件\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\compat\strnlen.cpp">
+      <Filter>源文件\compat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\univalue\lib\univalue.cpp">
+      <Filter>源文件\univalue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\univalue\lib\univalue_read.cpp">
+      <Filter>源文件\univalue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\univalue\lib\univalue_write.cpp">
+      <Filter>源文件\univalue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpc\protocol.cpp">
+      <Filter>源文件\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\support\cleanse.cpp">
+      <Filter>源文件\support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\support\pagelocker.cpp">
+      <Filter>源文件\support</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\chainparamsbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\clientversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utilmoneystr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utilstrencodings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utiltime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\compat\byteswap.h">
+      <Filter>头文件\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\compat\endian.h">
+      <Filter>头文件\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\compat\sanity.h">
+      <Filter>头文件\compat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\univalue\lib\univalue_escapes.h">
+      <Filter>头文件\univalue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\univalue\lib\univalue_utffilter.h">
+      <Filter>头文件\univalue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\univalue\include\univalue.h">
+      <Filter>头文件\univalue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rpc\protocol.h">
+      <Filter>头文件\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\support\cleanse.h">
+      <Filter>头文件\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\support\pagelocker.h">
+      <Filter>头文件\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\support\allocators\secure.h">
+      <Filter>头文件\support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\support\allocators\zeroafterfree.h">
+      <Filter>头文件\support</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

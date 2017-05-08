@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\primitives">
+      <UniqueIdentifier>{4e234b37-03a3-4f15-abcf-e9d135c7022f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\primitives">
+      <UniqueIdentifier>{1637942b-b590-4e47-bf77-fc6fcf536920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\script">
+      <UniqueIdentifier>{abd377c8-eb8b-4c2a-a534-1960314f27b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\script">
+      <UniqueIdentifier>{f238fe5b-94b5-4beb-94ee-284c9ccc59b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\arith_uint256.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\hash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pubkey.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\uint256.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\consensus\merkle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\primitives\block.cpp">
+      <Filter>源文件\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\primitives\transaction.cpp">
+      <Filter>源文件\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\script\bitcoinconsensus.cpp">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\script\interpreter.cpp">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\script\script.cpp">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\script\script_error.cpp">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\arith_uint256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pubkey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\uint256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utilstrencodings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\consensus\consensus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\consensus\merkle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\consensus\params.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\consensus\validation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\primitives\block.h">
+      <Filter>头文件\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\primitives\transaction.h">
+      <Filter>头文件\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\script\bitcoinconsensus.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\script\interpreter.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\script\script.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\script\script_error.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

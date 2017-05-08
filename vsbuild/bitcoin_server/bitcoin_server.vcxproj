@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\bitcoin_common\bitcoin_common.vcxproj">
+      <Project>{8379af48-8364-4e3a-9a8f-99bb48c074c1}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\addrman.cpp" />
+    <ClCompile Include="..\..\src\blockencodings.cpp" />
+    <ClCompile Include="..\..\src\bloom.cpp" />
+    <ClCompile Include="..\..\src\chain.cpp" />
+    <ClCompile Include="..\..\src\checkpoints.cpp" />
+    <ClCompile Include="..\..\src\dbwrapper.cpp" />
+    <ClCompile Include="..\..\src\httprpc.cpp" />
+    <ClCompile Include="..\..\src\httpserver.cpp" />
+    <ClCompile Include="..\..\src\init.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\merkleblock.cpp" />
+    <ClCompile Include="..\..\src\miner.cpp" />
+    <ClCompile Include="..\..\src\net.cpp" />
+    <ClCompile Include="..\..\src\noui.cpp" />
+    <ClCompile Include="..\..\src\policy\fees.cpp" />
+    <ClCompile Include="..\..\src\policy\policy.cpp" />
+    <ClCompile Include="..\..\src\policy\rbf.cpp" />
+    <ClCompile Include="..\..\src\pow.cpp" />
+    <ClCompile Include="..\..\src\rest.cpp" />
+    <ClCompile Include="..\..\src\rpc\blockchain.cpp" />
+    <ClCompile Include="..\..\src\rpc\mining.cpp" />
+    <ClCompile Include="..\..\src\rpc\misc.cpp" />
+    <ClCompile Include="..\..\src\rpc\net.cpp" />
+    <ClCompile Include="..\..\src\rpc\rawtransaction.cpp" />
+    <ClCompile Include="..\..\src\rpc\server.cpp" />
+    <ClCompile Include="..\..\src\script\ismine.cpp" />
+    <ClCompile Include="..\..\src\script\sigcache.cpp" />
+    <ClCompile Include="..\..\src\timedata.cpp" />
+    <ClCompile Include="..\..\src\torcontrol.cpp" />
+    <ClCompile Include="..\..\src\txdb.cpp" />
+    <ClCompile Include="..\..\src\txmempool.cpp" />
+    <ClCompile Include="..\..\src\ui_interface.cpp" />
+    <ClCompile Include="..\..\src\validationinterface.cpp" />
+    <ClCompile Include="..\..\src\versionbits.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\addrman.h" />
+    <ClInclude Include="..\..\src\blockencodings.h" />
+    <ClInclude Include="..\..\src\bloom.h" />
+    <ClInclude Include="..\..\src\chain.h" />
+    <ClInclude Include="..\..\src\checkpoints.h" />
+    <ClInclude Include="..\..\src\dbwrapper.h" />
+    <ClInclude Include="..\..\src\httprpc.h" />
+    <ClInclude Include="..\..\src\httpserver.h" />
+    <ClInclude Include="..\..\src\init.h" />
+    <ClInclude Include="..\..\src\main.h" />
+    <ClInclude Include="..\..\src\merkleblock.h" />
+    <ClInclude Include="..\..\src\miner.h" />
+    <ClInclude Include="..\..\src\net.h" />
+    <ClInclude Include="..\..\src\noui.h" />
+    <ClInclude Include="..\..\src\policy\fees.h" />
+    <ClInclude Include="..\..\src\policy\policy.h" />
+    <ClInclude Include="..\..\src\policy\rbf.h" />
+    <ClInclude Include="..\..\src\pow.h" />
+    <ClInclude Include="..\..\src\rpc\server.h" />
+    <ClInclude Include="..\..\src\script\ismine.h" />
+    <ClInclude Include="..\..\src\script\sigcache.h" />
+    <ClInclude Include="..\..\src\timedata.h" />
+    <ClInclude Include="..\..\src\torcontrol.h" />
+    <ClInclude Include="..\..\src\txdb.h" />
+    <ClInclude Include="..\..\src\txmempool.h" />
+    <ClInclude Include="..\..\src\ui_interface.h" />
+    <ClInclude Include="..\..\src\validationinterface.h" />
+    <ClInclude Include="..\..\src\versionbits.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8715F517-60A2-433F-8E56-8F1943FFA3E9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>bitcoin_server</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\depends\x86-msvc-win32\include;$(SolutionDir)..\src;$(SolutionDir)..\src\config;$(SolutionDir)..\src\leveldb\include;$(SolutionDir)..\src\leveldb\helpers\memenv;$(SolutionDir)..\src\secp256k1\include;$(SolutionDir)..\src\univalue\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <ObjectFileName>$(IntDir)\_\_\%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\depends\x86_64-w64-mingw32\include;$(SolutionDir)..\src;$(SolutionDir)..\src\config;$(SolutionDir)..\src\leveldb\include;$(SolutionDir)..\src\leveldb\helpers\memenv;$(SolutionDir)..\src\secp256k1\include;$(SolutionDir)..\src\univalue\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\depends\x86-msvc-win32\include;$(SolutionDir)..\src;$(SolutionDir)..\src\config;$(SolutionDir)..\src\leveldb\include;$(SolutionDir)..\src\leveldb\helpers\memenv;$(SolutionDir)..\src\secp256k1\include;$(SolutionDir)..\src\univalue\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ObjectFileName>$(IntDir)\_\_\%(RelativeDir)</ObjectFileName>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\depends\x86_64-w64-mingw32\include;$(SolutionDir)..\src;$(SolutionDir)..\src\config;$(SolutionDir)..\src\leveldb\include;$(SolutionDir)..\src\leveldb\helpers\memenv;$(SolutionDir)..\src\secp256k1\include;$(SolutionDir)..\src\univalue\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

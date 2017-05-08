@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\policy">
+      <UniqueIdentifier>{7af25957-c7be-4952-a449-09d863cdb439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\policy">
+      <UniqueIdentifier>{cc91968d-a87e-4ba0-9c67-75540a22f987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\rpc">
+      <UniqueIdentifier>{e3291e9d-80ff-4f42-81f1-4b4e26b663f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\rpc">
+      <UniqueIdentifier>{fd05d3ec-f3b9-46bc-a785-eaa224dbbeeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\script">
+      <UniqueIdentifier>{b61640a4-b5ce-4dcd-ba30-707af3698a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\script">
+      <UniqueIdentifier>{99bf7924-962c-4bb5-a6fc-e324fbc4952f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\addrman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\blockencodings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\bloom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\chain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\checkpoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\dbwrapper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\httprpc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\httpserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\init.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\merkleblock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\miner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\net.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\noui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\timedata.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\torcontrol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\txdb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\txmempool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ui_interface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\validationinterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\versionbits.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\policy\fees.cpp">
+      <Filter>源文件\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\policy\policy.cpp">
+      <Filter>源文件\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\policy\rbf.cpp">
+      <Filter>源文件\policy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpc\blockchain.cpp">
+      <Filter>源文件\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpc\mining.cpp">
+      <Filter>源文件\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpc\misc.cpp">
+      <Filter>源文件\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpc\net.cpp">
+      <Filter>源文件\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpc\rawtransaction.cpp">
+      <Filter>源文件\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rpc\server.cpp">
+      <Filter>源文件\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\script\ismine.cpp">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\script\sigcache.cpp">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\addrman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\blockencodings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\bloom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\chain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\checkpoints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\dbwrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\httprpc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\httpserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\init.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\merkleblock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\miner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\net.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\noui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\timedata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\torcontrol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\txdb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\txmempool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ui_interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\validationinterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\versionbits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\policy\fees.h">
+      <Filter>头文件\policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\policy\policy.h">
+      <Filter>头文件\policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\policy\rbf.h">
+      <Filter>头文件\policy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rpc\server.h">
+      <Filter>头文件\rpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\script\ismine.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\script\sigcache.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -25,6 +25,8 @@
 #include <arpa/inet.h>
 #endif
 #include <fcntl.h>
+#else
+typedef int ssize_t;
 #endif
 
 #include <boost/algorithm/string/case_conv.hpp> // for to_lower()
